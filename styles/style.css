@@ -178,27 +178,21 @@ ul {
 /****************** Gallery Satyles ******************/
 
 .gallery {
-    margin: 5px;
-    color: aliceblue;
-    border: 1px solid #ccc;
-    float: right;
-    width: 300px;
-
-}
-
-.gallery-table {
-    display: content;
-}
-
-.gallery:hover {
-    border: 1px solid #777;
+    margin: 10px 50px;
 
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
+    transition: 1s;
+    padding: 15px;
+    width: 300px;
+    box-shadow: #535151;
 
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
 }
 
 .desc {
