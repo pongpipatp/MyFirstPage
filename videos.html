@@ -1,0 +1,66 @@
+<!Doctype html>
+<html class="animated fadeIn videos">
+
+<head>
+    <meta charset="utf-8">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+    <title>Videos</title>
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+
+            <img src="./styles/logo.png" id="logo" alt="">
+            <p>Pongpipat Panomkhet</p>
+            <ul>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="gallery.html">My Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br>
+
+    <div class="content">
+        <h1>
+            Click To Watch <br>
+            Video In Actions
+        </h1>
+
+        <a href="https://www.youtube.com/embed/reQIWxID9JM" class="play-button" id="play-button">
+            Watch Video <i class="fa fa-play-circle" aria-hidden="true"> &nbsp;</i>
+        </a>
+
+        <div id="videostory" class="mfp-hide" style="max-width: 75%; margin: 0 auto">
+
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/reQIWxID9JM" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+    <script>
+        $('#videolink').magnificPopup({
+            type: 'inline',
+            midClick: true
+        })
+    </script>
+
+</body>
+
+</html>
