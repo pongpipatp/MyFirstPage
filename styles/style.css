@@ -303,7 +303,7 @@ ul {
     border-color: white;
     font-size: 17px;
     font-size: 1.7rem;
-    font-family: taahoma;
+    font-family: tahoma;
     font-weight: bold;
     margin-top: 40px;
     display: inline-block;
@@ -342,6 +342,7 @@ ul {
     font-size: 50px;
     font-family: tahoma;
     font-weight: bold;
+    text-decoration: none;
     line-height: 72px;
     letter-spacing: 2px;
     text-align: center;
