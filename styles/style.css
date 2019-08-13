@@ -30,6 +30,7 @@
 }
 
 .welcome-text a:hover {
+    transition: 0.4s;
     background: rgb(99, 158, 99);
     color: #333;
 }
